@@ -1,0 +1,47 @@
+node-delayed-stream (1.0.0-4) unstable; urgency=medium
+
+  * Team upload
+  * Skip autopkgtest if test enter in a infinite loop (debci machines)
+    (Closes: #951167)
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 12 Feb 2020 12:03:10 +0100
+
+node-delayed-stream (1.0.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Add a timeout to test to avoid keeping failed test opened during debci
+  * Declare compliance with policy 4.5.0
+
+ -- Xavier Guimard <yadd@debian.org>  Fri, 31 Jan 2020 11:37:54 +0100
+
+node-delayed-stream (1.0.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Back to unstable
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 20 Jan 2020 18:40:14 +0100
+
+node-delayed-stream (1.0.0-1) experimental; urgency=medium
+
+  * Team upload
+  * New upstream version 1.0.0
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Change priority to optional
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Update VCS fields to salsa
+  * Update copyright
+  * Ue pkg-js-tools auto install
+  * Enable upstream test
+  * Remove useless link
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 15 Jan 2020 06:15:32 +0100
+
+node-delayed-stream (0.0.5-1) unstable; urgency=low
+
+  * Initial release (Closes: #719688)
+
+ -- Jérémy Lal <kapouer@melix.org>  Wed, 14 Aug 2013 14:23:44 +0200

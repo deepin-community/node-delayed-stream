@@ -1,0 +1,44 @@
+{
+  "_from": "fake@0.2.0",
+  "_id": "fake@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha1-+hIyc5crUA41SbXJ77Sy0aGpvdQ=",
+  "_location": "/fake",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "fake@0.2.0",
+    "name": "fake",
+    "escapedName": "fake",
+    "rawSpec": "0.2.0",
+    "saveSpec": null,
+    "fetchSpec": "0.2.0"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/fake/-/fake-0.2.0.tgz",
+  "_shasum": "fa123273972b500e3549b5c9efb4b2d1a1a9bdd4",
+  "_spec": "fake@0.2.0",
+  "_where": "/home/xavier/dev/debian/src/pkg-js/packages/node-delayed-stream",
+  "author": {
+    "name": "Felix Geisendörfer",
+    "email": "felix@debuggable.com",
+    "url": "http://debuggable.com/"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Test your JavaScript with focused programmer tests. Fake depedencies.",
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "main": "./lib/fake",
+  "name": "fake",
+  "scripts": {
+    "test": "make test"
+  },
+  "version": "0.2.0"
+}

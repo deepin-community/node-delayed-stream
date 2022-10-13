@@ -1,0 +1,8 @@
+export NODE_PATH=debian/tests/test_modules
+TIMEOUT=200
+STATUS=0
+timeout --kill-after 1 -s 9 $TIMEOUT node ./test/run.js || STATUS=$?
+if test $STATUS -gt 124; then
+	exit 77
+fi
+exit $STATUS
