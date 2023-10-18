@@ -5,9 +5,9 @@ Section: javascript
 Testsuite: autopkgtest-pkg-nodejs
 Priority: optional
 Build-Depends:
- debhelper-compat (= 12)
- , pkg-js-tools (>= 0.9.20~)
-Standards-Version: 4.5.0
+ debhelper-compat (= 13)
+ , dh-sequence-nodejs
+Standards-Version: 4.6.0
 Vcs-Browser: https://salsa.debian.org/js-team/node-delayed-stream
 Vcs-Git: https://salsa.debian.org/js-team/node-delayed-stream.git
 Homepage: https://github.com/felixge/node-delayed-stream
@@ -15,9 +15,8 @@ Rules-Requires-Root: no
 
 Package: node-delayed-stream
 Architecture: all
-Depends:
- ${misc:Depends}
- , nodejs
+Depends: ${misc:Depends}
+Multi-Arch: foreign
 Description: Buffer stream events for later handling - module for Node.js
  node-delayed-stream can delay stream responses, and can be used
  to combine streams one after another.
